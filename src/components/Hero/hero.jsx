@@ -15,7 +15,7 @@ function Hero() {
         }}
       >
         <div className="max-w-[609px] w-full mx-auto mt-32 lg:ml-24">
-          <div className="p-1 mb-5 bg-gradient-to-r w-fit px-5 to-[#FFB28D] from-[#F3D1C1]">
+          <div className="p-1 mb-5 bg-gradient-to-r w-fit px-5  to-[#FFB28D] from-[#F3D1C1]">
             <div className="flex items-center space-x-4">
               <img
                 src={House}
