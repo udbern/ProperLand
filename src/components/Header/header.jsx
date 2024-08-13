@@ -15,8 +15,8 @@ function Header() {
   return (
     <>
       <nav className="container mx-auto fixed inset-x-0 top-10 z-50">
-        <div className=" max-w-6xl mx-auto w-full font-kameron font-bold bg-[#ffffff] md:py-4 overflow-hidden">
-          <div className="flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className=" border border-gray-200 max-w-6xl mx-auto w-full font-kameron font-bold bg-[#ffffff] md:py-4 overflow-hidden">
+          <div className="flex flex-wrap items-center justify-between  mx-auto p-4">
             <a
               href="/"
               className="flex items-center space-x-3 rtl:space-x-reverse"
