@@ -2,7 +2,7 @@ import React from "react";
 import Hut from "../../assets/images/hut.png";
 import Pig from "../../assets/images/pig.png";
 import Money from "../../assets/images/money.png";
-import Locate from "../../assets/images/Locate.png";
+import Locate from "../../assets/images/locate.png";
 import Hand from "../../assets/images/hands.png";
 
 function Why() {
