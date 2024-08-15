@@ -1,7 +1,7 @@
 import React from "react";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import About from "./pages/About/About";
-import Home from "./pages/Home/HomePage";
+import HomePage from "./pages/Home/HomePage";
 import Layout from "./Layout";
 
 
@@ -13,7 +13,7 @@ function App() {
       children: [
         {
           path: "/",
-          element: <Home />,
+          element: <HomePage />,
         },
         {
           path: "about",
