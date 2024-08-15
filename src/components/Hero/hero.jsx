@@ -1,6 +1,6 @@
 import React from "react";
 import HeroImg from "../../assets/images/hero.png";
-import House from "../../assets/images/vector.svg";
+import House from "../../assets/images/hut.png";
 import { IoArrowForwardCircleSharp } from "react-icons/io5";
 
 function Hero() {
