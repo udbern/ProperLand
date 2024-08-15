@@ -31,7 +31,7 @@ function Hero() {
             <h3 className="text-primary font-kufam font-[700] text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight">
               Find the perfect place to Live with your family.
             </h3>
-            <p className="text-link mt-4 text-base font-sans3 font-normal sm:text-lg md:text-xl leading-relaxed">
+            <p className=" text-primary    lg:text-link mt-4 max-w-xl text-base font-sans3 font-normal sm:text-lg md:text-xl leading-relaxed">
               Distinctively re-engineer revolutionary meta-services and premium
               architectures. Intrinsically incubate.
             </p>
@@ -40,7 +40,7 @@ function Hero() {
               className="px-4 py-2 sm:px-5 sm:py-2.5 mt-6 sm:mt-8 bg-[#ffffff]  flex items-center justify-center mx-auto lg:mx-0 font-kufam font-[500] text-lg sm:text-xl text-primary tracking-wider rounded outline-none transition-all hover:bg-primary hover:text-white"
             >
               Explore Property{" "}
-              <IoArrowForwardCircleSharp className="ml-2 text-secondary h-4 w-4" />
+              <IoArrowForwardCircleSharp className="ml-2 text-secondary h-6 w-6" />
             </button>
           </div>
         </div>

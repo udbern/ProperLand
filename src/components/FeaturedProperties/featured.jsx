@@ -1,4 +1,4 @@
-import { Card } from "flowbite-react";
+import { Button, Card } from "flowbite-react";
 import React from "react";
 import { IoLocationSharp } from "react-icons/io5";
 import { FaBed, FaBath, FaCar, FaRulerCombined } from "react-icons/fa";
@@ -93,11 +93,15 @@ const data = [
 function Featured() {
   return (
     <>
-      <section className="bg-[#F5F1EF]">
+      <section className="bg-[#F5F1EF]  z-20  pb-20 relative">
+        <div className="flex justify-center">
+          <div className=" bg-gradient-to-b from-[#F2DED4] to-[#FFFFFF00] h-48 w-48  md:h-[25rem] md:w-[25rem] absolute    -z-10 rounded-full -bottom-14 md:-bottom-32 "></div>
+        </div>
+
         <div className="max-w-6xl mx-auto justify-center pt-20 pb-10 px-4 sm:px-6 lg:px-8">
           <div className="max-w-lg mx-auto items-center   mb-10">
             <h2 className="font-sans3 text-start md:text-center mb-5 text-primary leading-relaxed border-r-2 border-l-2 px-2 border-primary w-fit font-normal text-base sm:text-lg md:text-xl md:mx-auto">
-              <span className="text-secondary">01</span> PROPERLAND INTRO
+              <span className="text-secondary">0 2</span> PROPERLAND INTRO
             </h2>
             <p className="text-primary text-start md:text-center text-3xl lg:text-4xl font-bold font-kufam">
               Properties for sale in your favorite area
@@ -132,9 +136,12 @@ function Featured() {
                     </span>
                     {property.location}
                   </p>
-                  <div className="flex flex-wrap justify-between gap-3  sm:text-sm text-gray-500">
+                  <div className="flex flex-wrap justify-between gap-3 space-x-0 sm:text-sm text-gray-500">
                     {property.details.map((item, idx) => (
-                      <span className="border border-[#D7D7D7]  text-sm rounded-[5px] px-2 sm:px-4 py-1 sm:py-2 mb-2 sm:mb-0 flex items-center" key={idx}>
+                      <span
+                        className="border border-[#D7D7D7]  text-sm rounded-[5px] px-2 sm:px-4 py-1 sm:py-2 mb-2 sm:mb-0 flex items-center"
+                        key={idx}
+                      >
                         <item.icon className="mr-1" />
                         <span className="mx-1">|</span>
                         {item.value} {item.label}
@@ -145,6 +152,11 @@ function Featured() {
               </Card>
             ))}
           </div>
+        </div>
+        <div className="flex justify-center ">
+          <Button className="bg-[#ffffff]  capitalize font-kufam font-medium text-xl py-2 px-4 rounded-[5px] text-primary ">
+            touch with us
+          </Button>
         </div>
       </section>
     </>

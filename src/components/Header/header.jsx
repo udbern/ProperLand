@@ -5,7 +5,7 @@ const menu = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
   { name: "Properties", path: "/properties" },
-  { name: "Pages", path: "/pages" },
+
   { name: "Blog", path: "/blog" },
 ];
 
@@ -14,9 +14,9 @@ function Header() {
 
   return (
     <>
-      <nav className="container mx-auto fixed inset-x-0 top-10 z-50">
-        <div className=" border border-gray-200 max-w-6xl mx-auto w-full font-kameron font-bold bg-[#ffffff] md:py-4 overflow-hidden">
-          <div className="flex flex-wrap items-center justify-between  mx-auto p-4">
+      <nav className="mx-5 fixed inset-x-0 top-8 z-50">
+        <div className=" border border-gray-100 max-w-6xl mx-auto w-full font-kameron font-bold bg-[#ffffff] md:py-4 overflow-hidden">
+          <div className="flex flex-wrap items-center  justify-between  mx-auto p-4">
             <a
               href="/"
               className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -35,7 +35,7 @@ function Header() {
             </button>
 
             <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`}>
-              <ul className="flex flex-col md:flex-row items-center font-medium text-primary md:space-x-8 mt-4 md:mt-0">
+              <ul className="flex flex-col md:flex-row items-center font-medium text-primary md:space-x-4 lg:space-x-8 mt-4 md:mt-0">
                 {menu.map((item, index) => (
                   <li key={index} className="py-2 md:py-0">
                     <a href={item.path}>{item.name}</a>

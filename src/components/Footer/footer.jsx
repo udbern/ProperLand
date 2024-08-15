@@ -44,8 +44,8 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="">
-          <h4 className="text-primary font-kufam font-bold text-2xl sm:text-3xl md:text-4xl mb-4 sm:mb-6">
+        <div className="space-y-4">
+          <h4 className="text-primary font-kufam font-bold text-2xl sm:text-3xl md:text-4xl">
             Get a free estimate
           </h4>
 
@@ -56,7 +56,7 @@ function Footer() {
           </p>
 
 
-          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-6">
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
             <input
               type="email"
               placeholder="Your email"
