@@ -12,7 +12,7 @@ function Intro() {
     <>
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row mt-10 mb-10 bg-[#F2F2F2]">
         <div className="flex-1 md:flex-[2] p-5 md:p-10 space-y-2">
-          <h2 className="font-sans3 text-primary leading-relaxed border-r-2 border-l-2 px-2 border-primary w-fit font-normal text-lg md:text-xl">
+          <h2 className="font-sans3 text-primary leading-relaxed uppercase border-r-2 border-l-2 px-2 border-primary w-fit font-normal text-lg md:text-xl">
             <span className="text-secondary">0 1</span> PROPERLAND INTRO
           </h2>
           <h3 className="text-primary font-kufam text-3xl md:text-4xl font-bold">
