@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-
 import IntroVideo from "../../assets/video/intro.mp4";
 import { MdOutlinePlayCircle } from "react-icons/md";
+
 function Intro() {
   const [isPlaying, setIsPlaying] = useState(false);
   const handlePlayClick = () => {
@@ -45,7 +45,6 @@ function Intro() {
               className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white bg-opacity-50 rounded-full p-2 md:p-4"
               onClick={handlePlayClick}
             >
-              
               <MdOutlinePlayCircle className="text-2xl text-primary" />
             </button>
           )}

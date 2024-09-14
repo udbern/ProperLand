@@ -3,6 +3,8 @@ import Background from "../../assets/images/blogbackground.png";
 import Blog1 from "../../assets/images/blog1.png";
 import Blog2 from "../../assets/images/blog2.png";
 import { Link } from "react-router-dom";
+import { Button } from "flowbite-react";
+import { FaCircleArrowRight } from "react-icons/fa6";
 function Blog() {
   const latestBlogs = [
     {
@@ -50,7 +52,10 @@ function Blog() {
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
-                <Link to='' className="flex flex-col items-center text-center justify-center space-y-3 sm:space-y-5 mt-6 sm:mt-10 mb-6 sm:mb-10 max-w-2xl mx-auto p-4">
+                <Link
+                  to=""
+                  className="flex flex-col items-center text-center justify-center space-y-3 sm:space-y-5 mt-6 sm:mt-10 mb-6 sm:mb-10 max-w-2xl mx-auto p-4"
+                >
                   <div className="flex items-center justify-center">
                     <h2 className="font-sans3 font-normal text-base sm:text-xl text-link">
                       {latestBlog.date} | <span>{latestBlog.category}</span>
@@ -60,6 +65,12 @@ function Blog() {
                     {latestBlog.text}
                   </p>
                 </Link>
+                <div className="flex justify-center">
+                  <Button className="bg-[#ffffff]  capitalize font-kufam font-medium text-xl py-2 px-4 rounded-[5px] text-primary ">
+                    see all articles{" "}
+                    <FaCircleArrowRight className="text-primary text-xl ml-2" />
+                  </Button>
+                </div>
               </div>
             ))}
           </div>
