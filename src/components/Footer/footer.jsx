@@ -98,13 +98,13 @@ function Footer() {
             </li>
             <li>
 
-              <Link to="agent" className="text-[15px]">
+              <Link to="properties" className="text-[15px]">
                 Agent
               </Link>
             </li>
             <li>
 
-              <Link to="services" className="text-[15px]">
+              <Link to="properties" className="text-[15px]">
                 Service
               </Link>
             </li>

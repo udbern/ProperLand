@@ -120,7 +120,7 @@ function Review() {
           <div key={review.id} className="flex-shrink-0 max-w-[380px]">
             <div className="flex flex-col  justify-center p-4 ">
               <div className="mb-4  rounded-t-[70px] rounded-br-[70px]  p-6 border bg-[#ECC8B7]  ">
-                <p className=" font-sans3 font-normal text-xl  text-link  ">
+                <p className=" font-sans3 font-normal text-base md:text-xl  text-link  ">
                   {review.text}
                 </p>
               </div>
@@ -132,7 +132,7 @@ function Review() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <p className="font-semibold text-primary text-2xl   font-kufam">
+                <p className="font-semibold text-primary text-base md:text-2xl   font-kufam">
                   {review.author}
                 </p>
               </div>

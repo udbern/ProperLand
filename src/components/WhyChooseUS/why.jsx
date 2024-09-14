@@ -33,7 +33,7 @@ function Why() {
               <img src={Locate} className="object-cover object-center" alt="" />
             </div>
             <div className="">
-              <img src={Pig} className="object-cover object-center" alt="" />
+              <img src={Money} className="object-cover object-center" alt="" />
             </div>
           </div>
         </div>
