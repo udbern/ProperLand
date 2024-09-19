@@ -26,14 +26,14 @@ function Blog() {
 
   return (
     <section
-      className="bg-[#F5F1EF] bg-center"
+      className="bg-[#F5F1EF] bg-center  "
       style={{
         backgroundImage: `url(${Background})`,
         backgroundSize: "cover",
       }}
     >
-      <div className="max-w-6xl mx-auto pt-20 px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col justify-center items-center mb-10">
+      <div className="max-w-6xl mx-auto pt-20 px-4 sm:px-6 lg:px-8  ">
+        <div className="flex flex-col justify-center items-center pb-10">
           <h2 className="font-sans3 text-center mb-5 uppercase text-primary leading-relaxed border-r-2 border-l-2 px-2 border-primary w-fit font-normal text-base sm:text-lg md:text-xl mx-auto">
             <span className="text-secondary">0 6</span> Blog
           </h2>
@@ -65,15 +65,14 @@ function Blog() {
                     {latestBlog.text}
                   </p>
                 </Link>
-                <div className="flex justify-center">
-                  <Button className="bg-[#ffffff]  capitalize font-kufam font-medium text-xl py-2 px-4 rounded-[5px] text-primary ">
-                    see all articles{" "}
-                    <FaCircleArrowRight className="text-primary text-xl ml-2" />
-                  </Button>
-                </div>
+                <div className="flex justify-center"></div>
               </div>
             ))}
           </div>
+          <Button className="bg-[#ffffff]   capitalize font-kufam font-medium text-xl py-2 px-4 rounded-[5px] text-primary ">
+            see all articles
+            <FaCircleArrowRight className="text-primary text-xl ml-2" />
+          </Button>
         </div>
       </div>
     </section>

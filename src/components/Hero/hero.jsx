@@ -2,6 +2,7 @@ import React from "react";
 import HeroImg from "../../assets/images/hero.png";
 import House from "../../assets/images/tiny.png";
 import { IoArrowForwardCircleSharp } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -35,13 +36,13 @@ function Hero() {
               Distinctively re-engineer revolutionary meta-services and premium
               architectures. Intrinsically incubate.
             </p>
-            <button
+            <Link to='/property'
               type="button"
               className="px-4 -ml-[5px]  py-2 sm:px-5 sm:py-2.5 mt-6 sm:mt-8 bg-[#ffffff] flex items-center justify-center mx-auto lg:mx-0 font-kufam font-[500] text-lg sm:text-xl text-primary tracking-wider rounded outline-none transition-all ease-in-out  duration-500 hover:bg-primary hover:text-white"
             >
               Explore Property
               <IoArrowForwardCircleSharp className="ml-2 text-secondary h-6 w-6" />
-            </button>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from './_components/Hero';
+import Hero from './_components/hero';
 import Intro from './_components/intro';
 import Process from './_components/process';
 
