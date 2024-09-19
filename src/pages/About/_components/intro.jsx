@@ -44,7 +44,7 @@ function Intro() {
                     alt="Vision"
                     className="mb-4 md:mb-0 md:mr-4"
                   />
-                  <div>
+                  <div className="text-start">
                     <h2 className="text-xl text-primary font-kufam font-semibold mb-2">
                       Our Vision
                     </h2>
@@ -61,11 +61,11 @@ function Intro() {
                     alt="Mission"
                     className="mb-4 md:mb-0 md:mr-4"
                   />
-                  <div>
-                    <h2 className="text-xl font-kufam text-primary font-semibold mb-2">
+                  <div className="text-start ">
+                    <h2 className=" text-xl font-kufam text-primary font-semibold mb-2">
                       Our Mission
                     </h2>
-                    <p className="font-sans3 text-base md:text-xl text-[#7D7D7D] font-normal">
+                    <p className=" font-sans3 text-base md:text-xl text-[#7D7D7D] font-normal">
                       Distinctively re-engineer revolutionary meta-services and
                       premium At vero eos et accusamus et iusto odio dignissimos
                       ducimus qui blanditiis
