@@ -27,7 +27,7 @@ function Team() {
 
   const teamData = [
     { image: Peter, alt: "Peter", name: "Peter Parker" },
-    { image: Elena, alt: "Elana", name: "Elena Gilberts" },
+    { image: Elena, alt: "Elena", name: "Elena Gilberts" },
     { image: Sam, alt: "Sam", name: "Sam Parker" },
     { image: Rose, alt: "Rose", name: "Rosalina  William" },
   ];
@@ -72,7 +72,7 @@ function Team() {
           <p className="text-primary text-start md:text-center text-2xl sm:text-3xl lg:text-4xl font-bold font-kufam">
             Our Property Team
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-5 group">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-5 ">
             {teamData.map((teamData, index) => (
               <div
                 key={index}
@@ -85,9 +85,9 @@ function Team() {
                   className="h-full w-full object-cover object-center"
                 />
                 </div>
-                <div className="absolute bottom-0 left-0 right-0 px-2 py-4 bg-white group-hover:bg-secondary duration-500  transition-all ease-in-out  bg-opacity-90">
+                <div className="absolute bottom-0 left-0 right-0 px-2 py-4 bg-white hover:bg-secondary duration-500  transition-all ease-in-out  bg-opacity-90">
                     <h2 className="text-primary font-kufam text-lg sm:text-xl lg:text-2xl font-semibold">{teamData.name}</h2>
-                    <p className="font-sans3 group-hover:text-primary text-secondary flex items-center justify-between font-normal text-sm sm:text-base lg:text-xl">
+                    <p className="font-sans3 hover:text-primary text-secondary flex items-center justify-between font-normal text-sm sm:text-base lg:text-xl">
                       <span>land seller</span>
                       <span className="flex items-center space-x-2">
                         <FaFacebookF className="text-primary text-base sm:text-lg lg:text-xl" />

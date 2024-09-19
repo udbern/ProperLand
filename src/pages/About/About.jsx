@@ -4,7 +4,7 @@ import Intro from './_components/intro';
 import Process from './_components/process';
 import Reviews from '../../components/Reviews/review'
 import Space from './_components/space'
-import Team from './_components/team';
+import Team from './_components/teams';
 function About() {
   return (
     <div>
