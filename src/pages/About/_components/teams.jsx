@@ -2,7 +2,7 @@ import React from "react";
 import Peter from "../../../assets/images/peter.png";
 import Sam from "../../../assets/images/sam.png";
 import Rose from "../../../assets/images/rose.png";
-import Elena from "../../../assets/images/elena.png";
+import Elena from "../../../assets/images/Elena.png";
 import { FaCircleArrowRight, FaFacebook, FaFacebookF } from "react-icons/fa6";
 import Proland from "../../../assets/images/icons/proland.png";
 import No from "../../../assets/images/icons/no.png";
